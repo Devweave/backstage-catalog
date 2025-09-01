@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: mobile-system
+  description: Mobile system for testing-app
+spec:
+  owner: group:team-testing-app
+  domain: testing-app

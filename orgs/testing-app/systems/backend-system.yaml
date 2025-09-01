@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: backend-system
+  description: Backend system for testing-app
+spec:
+  owner: group:team-testing-app
+  domain: testing-app

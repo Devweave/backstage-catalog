@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: testing-app-db
+  description: Database for testing-app backend
+spec:
+  type: database
+  owner: group:team-testing-app
+  system: backend-system

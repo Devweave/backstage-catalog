@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: catalog-all-user
+  description: A collection of all Backstage users
+spec:
+  targets:
+    - ./yoga.yaml

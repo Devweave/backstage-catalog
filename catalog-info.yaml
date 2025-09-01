@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: root-catalog
+  description: Root catalog for all entities
+spec:
+  targets:
+    - ./orgs/*/project.yaml
+    - ./users/*.yaml

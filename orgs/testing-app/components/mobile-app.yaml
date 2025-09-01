@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mobile-app
+  description: Mobile application for testing-app
+spec:
+  type: mobile-app
+  lifecycle: production
+  owner: group:team-testing-app
+  system: mobile-system

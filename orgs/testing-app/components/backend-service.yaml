@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backend-service
+  description: Backend service for testing-app
+spec:
+  type: service
+  lifecycle: production
+  owner: group:team-testing-app
+  system: backend-system
+  providesApis:
+    - api:testing-app-api
+  dependsOn:
+    - resource:testing-app-db

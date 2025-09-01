@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: testing-app-project
+  description: Catalog location for all testing-app entities
+spec:
+  targets:
+    - ./systems/*.yaml
+    - ./components/*.yaml
+    - ./apis/*.yaml
+    - ./resources/*.yaml

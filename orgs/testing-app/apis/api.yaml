@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: testing-app-api
+  description: API for testing-app backend
+spec:
+  type: openapi
+  owner: group:team-testing-app
+  system: backend-system
