@@ -6,4 +6,4 @@ spec:
   profile:
     displayName: Ahmad Yoga Witdodo
     email: ahmadyoga684@gmail.com
-  memberOf: [group:default/admins]
+  memberOf: [group:default/admin]
