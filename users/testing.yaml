@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: testing
-spec:
-  profile:
-    displayName: Testing
-    email: ahmadyogaw.gobimbel@gmail.com
-  memberOf: [group:default/developers]

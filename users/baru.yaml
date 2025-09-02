@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: baru
-spec:
-  profile:
-    displayName: test
-    email: baru@maildrop.cc
-  memberOf: [group:default/developers]
