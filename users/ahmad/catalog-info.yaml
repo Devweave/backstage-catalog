@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ahmad
+  
+  title: Test
+  
+  
+  description: asdasd
+  
+spec:
+  profile:
+    displayName: YOGAAA
+    email: ahmadyogaw.gobimbel@gmail.com
+    
+    jobTitle: Test
+    
+  memberOf: [group:default/developers]
