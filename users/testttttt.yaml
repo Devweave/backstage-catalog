@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: testttttt
+spec:
+  profile:
+    displayName: TESTTTTTT
+    email: ahmadyogaw@maildrop.cc
+    company: testClient
+  memberOf: [group:default/clients]
