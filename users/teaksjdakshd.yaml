@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: teaksjdakshd
+spec:
+  profile:
+    displayName: ksjhkjahsd
+    email: klasdjlaksjd@maildrop.cc
+  memberOf: [group:default/developers]
