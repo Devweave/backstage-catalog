@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ahmad
+spec:
+  profile:
+    displayName: YOGAAA
+    email: test@maildrop.cc
+  memberOf: [group:default/developers]
