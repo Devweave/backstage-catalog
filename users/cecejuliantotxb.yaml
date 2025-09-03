@@ -6,4 +6,4 @@ spec:
   profile:
     displayName: Cece
     email: cecejuliantotxb@gmail.com
-  memberOf: [group:default/clients]
+  memberOf: [group:default/guests]
