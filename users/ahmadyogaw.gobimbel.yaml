@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ahmadyogaw.gobimbel
+spec:
+  profile:
+    displayName: ahmad yoga
+    email: ahmadyogaw.gobimbel@gmail.com
+  memberOf: [group:default/guests]
