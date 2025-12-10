@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ahmadyoga684
+spec:
+  profile:
+    displayName: Ahmad Yoga Witdodo
+    email: ahmadyoga684@gmail.com
+  memberOf: [group:default/guests]
